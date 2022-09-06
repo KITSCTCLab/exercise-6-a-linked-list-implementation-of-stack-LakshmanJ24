@@ -15,17 +15,16 @@ class Stack:
     
   def pop(self) -> None:
     # Write your code here
-    if(self.head!=None):
+    if(self.head!=None0):
       temp = self.head
       self.head = temp.next
               
-
   def status(self):
     """
     It prints all the elements of stack.
     """
     # Write your code here
-    if(self.head!=None)
+    if(self.head!=None):
       temp = self.head
       while temp.next!=None:
         print(temp.data,end="")
@@ -33,7 +32,6 @@ class Stack:
         temp=temp.next
       print(temp.data,end="")
     print("None")
-
 
 # Do not change the following code
 stack = Stack()
